@@ -14,7 +14,14 @@ public class LinkedList<Integer>{
             next = null;
         }
 
+        //ADDED THIS ONLY ON THE REMOTE REPO
+        // constructor for the Node class if next is known 
+        public Node(Integer item, Node<Integer> newNext){
+            data = item;
+            next = newNext;
+        }
 
+        
         public Integer getData(){
             return data;
         }
