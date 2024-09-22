@@ -14,13 +14,6 @@ public class LinkedList<Integer>{
             next = null;
         }
 
-        // ADDED A DIFFERENT VERSION LOCALLY
-        // constructor for the Node class if next is known
-        public Node(Integer item, Node<Integer> newNext){
-            data = item;
-            next = newNext;
-            String conflict = "Added this to create conflict";
-        }
 
         public Integer getData(){
             return data;
